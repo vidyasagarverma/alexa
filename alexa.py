@@ -1,16 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[4]:
 
 
 import speech_recognition as sr
-import pyttsx3
+import pyttsx3 
 import pywhatkit
-
-
-# In[10]:
-
 
 listener = sr.Recognizer()
 engine=pyttsx3.init()
@@ -19,9 +14,6 @@ engine.setProperty('voice',voices[1].id)
 def talk(text):   
     engine.say('text')
     engine.runAndWait()
-
-
-# In[7]:
 
 
 listener = sr.Recognizer()
